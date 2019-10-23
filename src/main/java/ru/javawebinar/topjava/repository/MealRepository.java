@@ -9,7 +9,7 @@ public interface MealRepository {
     Meal save(int id, Meal meal);
 
     // false if not found
-    boolean delete(int userId, int id);
+    Boolean delete(int userId, int id);
 
     // null if not found
     Meal get(int userId, int id);
